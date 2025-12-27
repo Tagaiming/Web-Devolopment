@@ -1,0 +1,79 @@
+.bg_login{
+    
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from{
+    height: 600px;
+    width: 600px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+     backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.head{
+    opacity: 0.9;
+   color: white;
+   font-size: larger;
+   font-weight: bolder;
+   
+}
+
+
+
+#email{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#email:focus{
+    color: red;
+   background-color: whitesmoke;
+   transform: scale(1.5);
+}
+#pass:focus{
+    color: red;
+   background-color: whitesmoke;
+   transform: scale(1.5);
+}
+#pass{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#submit{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    height: 40px;
+    width: 120px;
+    border: 1px solid peru;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
