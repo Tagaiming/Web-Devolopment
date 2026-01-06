@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  background-color: blueviolet;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.box {
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: mediumaquamarine;
+  margin: 10px;
+  text-align: center;
+
+  z-index: 10;
+  border-radius: 10px;
+}
+.box1 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box2 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box3 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box4 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box5 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box6 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box7 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box8 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+.box9 {
+  padding: auto;
+  color: red;
+  text-align: center;
+  font-size: 70px;
+}
+#msg {
+  color: blue;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.reset_btn {
+  background-color: black;
+  width: 80px;
+  height: 40px;
+  border-radius: 10%;
+  color: white;
+}
